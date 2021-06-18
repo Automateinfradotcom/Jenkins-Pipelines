@@ -1,0 +1,1 @@
+This Project is to Install Docker and Run Docker using Shell Script which will be Invoked using Jenkinsfile. Add JenkinsFile to your repository along with Shell Script and trigger the Jenkins Job.
