@@ -1,0 +1,17 @@
+pipeline {
+
+   agent any 
+
+   stages {
+    
+    stage('Install Docker') {
+       when {
+          branch 'Master'      
+         }
+       steps {
+           sh "chmod +x docker.sh"
+           sh "./docker.sh"
+       }
+    }
+   }
+  }
